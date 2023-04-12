@@ -15,3 +15,4 @@ Cette commande démarrera un serveur, les fichiers .vue modifiés seront automat
 ```bash
 npm run dev # démarrage du serveur
 ```
+...
