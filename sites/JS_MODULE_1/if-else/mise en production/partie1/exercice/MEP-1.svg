@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="MEP-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="841.89px" height="1190.55px" viewBox="0 0 841.89 1190.55" enable-background="new 0 0 841.89 1190.55"
+	 xml:space="preserve">
+<rect x="81.643" y="519.068" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="241.892" height="90.541"/>
+<rect x="484.345" y="370.578" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="241.893" height="90.541"/>
+<g>
+	<rect x="81.643" y="81.01" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="241.892" height="90.541"/>
+	<text transform="matrix(1 0 0 1 124.2061 115.0151)" font-family="'Arial'" font-size="14.1732">Demander à l’utilisateur :</text>
+	<text transform="matrix(1 0 0 1 103.1714 149.0317)" font-family="'Arial'" font-size="14.1732">Quel est le jour de la semaine ?</text>
+</g>
+<g>
+	<rect x="81.643" y="219.067" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="241.892" height="90.541"/>
+	<text transform="matrix(1 0 0 1 124.2061 251.3296)" font-family="'Arial'" font-size="14.1732">Demander à l’utilisateur :</text>
+	<text transform="matrix(1 0 0 1 115.002 285.3452)" font-family="'Arial'" font-size="14.1732">Y a-t-il une astreinte ? O / N</text>
+</g>
+<g>
+	<polygon fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" points="202.587,482.854 80.834,415.851 202.587,348.841 
+		324.342,415.845 	"/>
+	<text transform="matrix(1 0 0 1 125.3267 404.3354)" font-family="'Arial'" font-size="14.1732">Si le jour de la semaine</text>
+	<text transform="matrix(1 0 0 1 135.8042 421.3433)" font-family="'Arial'" font-size="14.1732">est jeudi ou vendredi</text>
+	<text transform="matrix(1 0 0 1 150.1401 438.3511)" font-family="'Arial'" font-size="14.1732">et qu’il n’y a pas</text>
+	<text transform="matrix(1 0 0 1 162.5972 455.3589)" font-family="'Arial'" font-size="14.1732">d’astreinte ?</text>
+</g>
+<text transform="matrix(1 0 0 1 138.9014 551.478)" font-family="'Arial'" font-size="14.1732">Afficher le message</text>
+<text transform="matrix(1 0 0 1 100.5132 585.4946)" font-family="'Arial'" font-size="14.1732">&quot;Pas de MEP en fin de semaine&quot;</text>
+<g>
+	<path fill="#FFFFFF" stroke="#000000" stroke-width="0.763" stroke-miterlimit="10" d="M323.534,707.781
+		c0,3.857-5.373,6.984-12,6.984H93.642c-6.627,0-12-3.127-12-6.984v-38.732c0-3.854,5.373-6.98,12-6.98h217.892
+		c6.627,0,12,3.127,12,6.98V707.781z"/>
+	<text transform="matrix(1 0 0 1 181.645 694.9233)" font-family="'Arial'" font-size="22.6772">FIN</text>
+</g>
+<text transform="matrix(1 0 0 1 543.2349 404.3354)" font-family="'Arial'" font-size="14.1732">Afficher le message</text>
+<text transform="matrix(1 0 0 1 554.0933 438.3511)" font-family="'Arial'" font-size="14.1732">&quot;MEP autorisée&quot;</text>
+<g>
+	<path stroke="#000000" stroke-width="1.0254" stroke-miterlimit="10" d="M204.565,171.733v47.334V171.733z"/>
+	<polygon stroke="#000000" stroke-width="0.0767" stroke-miterlimit="10" points="209.03,211.333 204.565,219.067 200.1,211.333 	
+		"/>
+</g>
+<g>
+	<path stroke="#000000" stroke-width="0.9336" stroke-miterlimit="10" d="M202.588,309.608v39.233V309.608z"/>
+	<polygon stroke="#000000" stroke-width="0.0698" stroke-miterlimit="10" points="207.054,342.43 202.588,348.841 198.123,342.43 	
+		"/>
+</g>
+<g>
+	<path stroke="#000000" stroke-width="0.9078" stroke-miterlimit="10" d="M202.588,481.974v37.097V481.974z"/>
+	<polygon stroke="#000000" stroke-width="0.0679" stroke-miterlimit="10" points="207.053,513.007 202.588,519.068 198.123,513.007 
+			"/>
+</g>
+<g>
+	<path stroke="#000000" stroke-width="1.0795" stroke-miterlimit="10" d="M204.399,609.609v52.453V609.609z"/>
+	<polygon stroke="#000000" stroke-width="0.0808" stroke-miterlimit="10" points="208.865,653.492 204.399,662.064 199.934,653.492 
+			"/>
+</g>
+<polyline fill="none" stroke="#000000" stroke-width="0.8504" stroke-miterlimit="10" points="204.565,635.835 610.304,636.001 
+	610.304,461.284 "/>
+<path fill="none" stroke="#000000" stroke-width="0.0767" stroke-miterlimit="10" d="M204.565,635.835"/>
+<g>
+	<path stroke="#000000" stroke-width="0.8504" stroke-miterlimit="10" d="M324.342,415.42h160.16H324.342z"/>
+	<polygon stroke="#000000" stroke-width="0.8504" stroke-miterlimit="10" points="476.767,410.956 484.501,415.42 476.767,419.886 	
+		"/>
+</g>
+<text transform="matrix(1 0 0 1 217.4448 504.7749)" font-family="'MyriadPro-Regular'" font-size="14.1732">OUI</text>
+<text transform="matrix(1 0 0 1 386.4448 404.3354)" font-family="'MyriadPro-Regular'" font-size="14.1732">NON</text>
+</svg>

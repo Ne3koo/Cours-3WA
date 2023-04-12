@@ -1,0 +1,14 @@
+.smiley .visage {
+    stroke: none;
+    fill: #f1bd3a;
+}
+
+.smiley .yeux {
+    fill: black;
+    stroke: none;
+}
+
+.smiley .bouche {
+    stroke: black;
+    stroke-width: 3px;
+}

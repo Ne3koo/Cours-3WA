@@ -1,0 +1,71 @@
+/* *****************************************************************
+ MAIN
+***************************************************************** */
+.page {
+    margin: 2em;
+    background-color: #FFF;
+}
+
+main {
+    display: flex;
+    padding: 2rem;
+}
+
+header, footer {
+	padding: 2rem;
+	background-color: silver;
+	font-size: 2rem;
+	color: black;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/* *****************************************************************
+ Méthode 1 : VERSION TABLETTE
+***************************************************************** */
+
+@media screen and (max-width: 1200px) {
+	main {
+		flex-wrap: wrap;
+	}
+	article {
+		width: 50%;
+	}
+}
+
+/* *****************************************************************
+ Méthode 1 : VERSION MOBILE
+***************************************************************** */
+
+@media screen and (max-width: 780px) {
+	article {
+		width: 100%;
+	}
+}
+
+/* *****************************************************************
+ Méthode 2 : VERSION TABLETTE
+***************************************************************** */
+/*
+@media screen and (max-width: 1200px) and (min-width: 781px) {
+    main {
+        flex-wrap: wrap;
+    }
+    article {
+        width: 50%;
+    }
+}
+*/
+/* *****************************************************************
+ Méthode 2 : VERSION MOBILE
+***************************************************************** */
+/*
+@media screen and (max-width: 780px) {
+    main {
+        flex-direction: column;
+    }
+    article {
+        width: 100%;
+    }
+}
+*/

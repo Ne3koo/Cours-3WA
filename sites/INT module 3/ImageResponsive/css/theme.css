@@ -1,0 +1,45 @@
+
+/* *****************************************************************
+ MAIN
+***************************************************************** */
+body {
+    background-image: url(../img/phare.jpg);
+    background-image: no-repeat;
+    background-size: cover;
+}
+
+main {
+	padding: 4em;
+}
+article {
+	padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+section {
+    width: 48%;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+}
+
+section + section {
+    margin-top: 0;
+}
+
+
+@media screen and (max-width: 1200px) {
+    article {
+        flex-direction: column;
+    }
+    .picture {
+        text-align: center;
+    }
+    section {
+        width: 100%; 
+    }
+}

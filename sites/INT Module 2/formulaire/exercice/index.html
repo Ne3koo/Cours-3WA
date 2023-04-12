@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Mon premier formulaire</title>
+        <link rel="stylesheet" href="index.css" type="text/css" />
+    </head>
+    <body>
+        <h1>Un formulaire simple</h1>
+        <p>
+            Faire un premier formulaire simple
+        </p>
+        <form method="post">
+            <fieldset>
+                <legend>Mes coordonnées</legend>
+                <label for="prenom">
+                    Prénom
+                    <input type="text" name="prenom">
+                </label>
+                <br />
+                <label for="nom">
+                    Nom
+                    <input type="text" name="nom">
+                </label>
+                <br />
+                <label for="email">
+                    Email
+                    <input type="email" name="email">
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Ma demande</legend>
+                <select name="demande">
+                    <option value="0">Choisir l'objet de ma demande...</option>
+                    <option value="q">Question d'ordre général</option>
+                    <option value="g">Déclarer un bug gênant</option>
+                    <option value="b">Déclarer un bug bloquant</option>
+                </select>
+                <textarea name="message"></textarea>
+            </fieldset>
+            <button type="submit">Valider le formulaire</button>
+        </form>
+        <img src="https://3wa.fr/wp-content/themes/3wa2015/img/logos/big.png" />
+        <p>
+            Ce matériel ...
+        </p>
+    </body>
+</html>

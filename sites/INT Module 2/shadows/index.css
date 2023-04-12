@@ -1,0 +1,83 @@
+/*********************** Généralités **************************/
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: #555;
+}
+
+header {
+    background-color: #DDD;
+    text-align: center;
+    border: 1px solid #DD5735;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #DD5735;
+}
+
+a {
+    text-decoration: none;
+    color: #DD5735;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #DDD;
+    text-align: center;
+    border: 1px solid #555;
+}
+
+/************************* Contenu ******************************/
+
+.box {
+    background-color: #DDD;
+}
+
+.box6 {
+    margin: 1.25em;
+    padding: 1.25em;
+    border: 2px solid #DD5735;
+    width: 500px;
+    box-sizing: border-box;/* Valeur par défaut */
+}
+
+.shadow {
+    box-shadow: 2px 3px 5px blue, 2px 3px 5px red;
+}
+
+.shadow-left {
+    box-shadow: -2px 3px 5px blue, -2px 3px 5px red;
+}
+
+.shadow-both {
+    box-shadow: -2px 3px 5px blue, 2px 3px 5px blue;
+}
+
+.tshadow {
+    text-shadow: 1px 2px 2px green;
+}
+
+.gradient {
+    background-image: linear-gradient(45deg, red, blue);
+}
+
+.gradient-spread {
+    background-image: linear-gradient(45deg, red 0%, blue 20%, green 80%);
+}
+
+.gradient-rainbow {
+    background-image: linear-gradient(90deg, red, yellow, green, blue, purple);
+}
+
+.radial-gradient {
+    background-image: radial-gradient(circle, red, blue);
+}
+
+.radial-gradient-rainbow {
+    background-image: radial-gradient(circle, red, yellow, green, blue, purple);
+}

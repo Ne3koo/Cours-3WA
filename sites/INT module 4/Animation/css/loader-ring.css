@@ -1,0 +1,64 @@
+
+/* *****************************************************************
+GENERALITIES
+***************************************************************** */
+
+.center {
+	min-height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* *****************************************************************
+ ANIMATION
+***************************************************************** */
+.loader {
+	position: relative;
+    width: 60px;
+	height: 60px;
+	animation: loader linear 1s infinite;
+	
+	/* Fonctions de gestion du temps */
+	/*
+        animation-timing-function: ease;
+        animation-timing-function: ease-in;
+        animation-timing-function: ease-out;
+        animation-timing-function: ease-in-out;
+        animation-timing-function: linear;
+        animation-timing-function: step-start;
+        animation-timing-function: step-end;
+    */
+}
+
+.rond1, 
+.rond2, 
+.rond3 {
+	position: absolute;
+    width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+
+.rond1 {
+    border: 2px solid blue;
+}
+.rond2 {
+    border: 2px solid yellow;
+	top:5px;
+	left:5px;
+}
+.rond3 {
+    border: 2px solid red;
+	top: -5px;
+	left: 5px;
+}
+
+@keyframes loader {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

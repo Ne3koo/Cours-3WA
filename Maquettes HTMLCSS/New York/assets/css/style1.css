@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "courgette";
+    src: url(../media/fonts/Courgette-Regular.ttf);
+}
+/* Global */
+*{
+    font-size: 18px;
+    color: #444;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    width: 980px;
+    margin: auto;
+}
+/* Titres */
+h1 {
+    font-size: 40px;
+    color: #003884 ;
+    text-align: center;
+    font-family: "courgette";
+}
+h2{
+    font-size: 35px;
+    color: #4f89b9;
+    text-align: center;
+    font-family: "courgette";
+}
+h3{
+    font-size: 25px;
+
+    text-align: center;
+}
+/* classes */
+.citation{
+    font-size: 25px;
+    font-style: italic;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.bold{
+    color: #003884 ;
+    font-weight: bold;
+}
+.italic {
+    color: #003884 ;
+    font-style: italic;
+}
+.copyright {
+    font-size: 14px;
+}
+/* ID */
+#citation{
+    color: #003884 ;
+    background-color: #d7e1ef;
+    text-align: center;
+    font-style: italic;
+}
+/* Header */
+header img{
+    display: flex;
+    margin: auto;
+}
+header{
+    text-align: center;
+}
+/* Footer */
+footer{
+    text-align: center;
+}
+/* main */
+ol li{
+    font-family: "courgette";
+    color: #003884 ;
+    font-weight: bold;
+}

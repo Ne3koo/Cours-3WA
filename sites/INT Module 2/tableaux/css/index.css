@@ -1,0 +1,46 @@
+.container {
+    background-color: white;
+    padding: 2em;
+}
+
+/* simple */
+.table th,
+.table td {
+	padding: 1em;
+	border: 1px solid #ddd;
+}
+
+.complexe {
+    border-collapse: collapse;
+}
+
+.complexe caption {
+    font-size: 2em;
+}
+
+.complexe tbody {
+    border-bottom: 2px solid #999;
+	border-top: 2px solid #999;
+}
+
+/* Tableau complexe */
+.complexe caption,
+.complexe th,
+.complexe td {
+    padding: 1em;
+	border: 1px solid #ddd;
+}
+
+.complexe td {
+    text-align: right;
+}
+
+.complexe tbody td:nth-child(1) {
+    text-align: left;
+}
+.complexe tbody td:nth-child(2) {
+	text-align: center;
+}
+.complexe tbody tr:nth-child(odd) {
+    background-color: #EEE;
+}

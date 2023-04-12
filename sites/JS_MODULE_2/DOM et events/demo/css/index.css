@@ -1,0 +1,17 @@
+div {
+    display: inline-block;
+    padding: 2em;
+    margin: 2em;
+    border: 2px solid #CCC;
+    font-size: 2rem;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+}
+
+.rouge {
+    color: red;
+}
+
+.vert {
+    color: green;
+}

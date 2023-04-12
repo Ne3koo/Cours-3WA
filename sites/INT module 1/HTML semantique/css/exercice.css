@@ -1,0 +1,31 @@
+body {
+    line-height: 2;
+    background-color: #FFF;
+    text-align: center;
+}
+
+.container {
+    max-width: 980px;
+    margin: auto;
+}
+
+
+main header,
+main footer,
+main h1,
+main nav,
+main main,
+main section,
+main article,
+main h2,
+main h3,
+main aside, 
+main p {
+    border: 1px solid rgba(255, 0, 0, 0.2);
+    background-color: rgba(255, 0, 0, 0.1);
+    margin: 10px;
+}
+
+main h1 {
+    color: #555;
+}

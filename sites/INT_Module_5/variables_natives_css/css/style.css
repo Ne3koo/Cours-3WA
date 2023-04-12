@@ -1,0 +1,14 @@
+:root {
+    --primary-color: orange;
+    --secondar-color: #ff0000;
+    --primary-font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    font-family: var(--primary-font-family);
+    color: var(--primary-color);
+}
+
+p {
+    color: var(--secondar-color);
+}

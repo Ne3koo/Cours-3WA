@@ -1,0 +1,23 @@
+{
+  "name": "my-first-vue-app",
+  "version": "1.0.0",
+  "description": "My First Vue Application",
+  "author": "Nevezide",
+  "license": "ISC",
+  "scripts": {
+    "dev": "start chrome http://localhost:5173/index.html && vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "eslint": "eslint **/**/*.js --fix"
+  },
+  "engines": {
+    "node": "16.14"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.1",
+    "vite": "^3.0.4"
+  },
+  "dependencies": {
+    "vue": "^3.2.37"
+  }
+}

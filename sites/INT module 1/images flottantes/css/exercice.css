@@ -1,0 +1,21 @@
+.container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-left {
+    float: left;
+    margin-right: 20px;
+    width: 230px;
+}
+.img-right {
+    float: right;
+    margin-left: 20px;
+    width: 230px;
+}
+.clear {
+    float: clear;
+}
+article {
+    text-align: justify;
+}

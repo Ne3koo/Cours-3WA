@@ -1,0 +1,56 @@
+.block {
+    padding: 2em;
+    max-width: 40em;
+    min-height: 20em;
+    color: white;
+    background-color: teal;
+}
+.bg-large {
+    background-image: url(../img/large.jpg);
+}
+
+.bg-small {
+    background-image: url(../img/small.jpg);
+}
+
+/* background-repeat */
+.bg-repeat {
+	background-repeat: repeat;
+}
+.bg-no-repeat {
+	background-repeat: no-repeat;
+}
+.bg-repeat-x {
+	background-repeat: repeat-x;
+}
+.bg-repeat-y {
+	background-repeat: repeat-y;
+}
+
+/* background-size */
+.bg-size-contain {
+    background-size: contain;
+}
+.bg-size-cover {
+    background-size: cover;
+}
+.bg-size-50 {
+    background-size: 50%;
+}
+.bg-size-80-40 {
+    background-size: 80% 40%;
+}
+
+/* background-position */
+.bg-position-center {
+    background-position: center;
+}
+.bg-position-right-top {
+    background-position: right top;
+}
+.bg-position-right-bottom {
+    background-position: right bottom;
+}
+.bg-position-80-40 {
+    background-position: 80% 40%;
+}

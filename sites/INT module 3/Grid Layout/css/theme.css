@@ -1,0 +1,74 @@
+
+/* *****************************************************************
+ SECTION
+***************************************************************** */
+
+h2,
+h3 {
+	margin: 0;
+}
+section header,
+section footer {
+	padding: 1em;
+}
+
+/* *****************************************************************
+ GRID
+***************************************************************** */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 1rem;
+    font-size: 0.8em;
+}
+
+/*
+    Les élements sont placés a cheval
+    sur les lignes et les colonnes de la grille
+ */
+
+.bloc-header {
+    grid-column: 1 / 6;
+    grid-row: 1;
+    background-color: #ddd;
+}
+
+/* Position horizontale entre la 1ère et la 4ème bordure */
+/* Position verticale entre la 2ème et 8ème bordure */
+.bloc-article-1 {
+    grid-column: 1 / 4;
+    grid-row: 2 / 8;
+    background-color: #fff;
+}
+
+/* Position horizontale entre la 4ème et la 5ème bordure */
+/* Position verticale entre la 2ème et 5ème bordure */
+.bloc-article-2 {
+    grid-column: 4 / 5;
+    grid-row: 2 / 5;
+    background-color: #fc3;
+}
+
+/* Position horizontale entre la 5ème et la 6ème bordure */
+/* Position verticale entre la 2ème et 5ème bordure */
+.bloc-article-3 {
+    grid-column: 5 / 6;
+    grid-row: 2 / 5;
+    background-color: #fa3;
+}
+
+/* Position horizontale entre la 4ème et la 6ème bordure */
+/* Position verticale entre la 5ème et 8ème bordure */
+.bloc-article-4 {
+    grid-column: 4 / 6;
+    grid-row: 5 / 8;
+    background-color: #f83;
+}
+
+.bloc-footer {
+    grid-column: 1 / 6;
+    grid-row: 8;
+    background-color: #bbb;
+}

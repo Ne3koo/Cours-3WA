@@ -1,0 +1,37 @@
+
+.container {
+	max-width: 600px;
+}
+.card {
+	max-height: 120px;
+	margin-bottom: 120px;
+}
+
+.hidden {
+    overflow: hidden;
+}
+
+.scroll {
+    overflow: scroll;
+}
+
+.auto {
+    overflow: auto;
+}
+
+.ellipsis {
+	width: 50%;
+	height: auto;
+	white-space: nowrap;
+	overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.else {
+	width: 50%;
+	height: auto;
+	overflow: hidden;
+	white-space: nowrap;
+    text-overflow: ellipsis;
+	text-overflow: " [...]";
+}

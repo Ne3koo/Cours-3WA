@@ -1,0 +1,117 @@
+
+/* Appliquer un style sur le premier enfant */
+.nth-child li:first-child {
+	font-size: 2em;
+}
+
+/* Appliquer un style sur le premier enfant */
+.nth-child li:last-child {
+	font-size: 0.5em;
+}
+
+/* Appliquer un style sur la n ème occurence */
+.nth-child li:nth-child(3) {
+	background-color: red;
+}
+
+/* Appliquer un style sur les éléments pairs */
+.nth-child-even li:nth-child(even) {
+	background-color: green;
+}
+
+/* Appliquer un style sur les éléments impairs */
+.nth-child-odd li:nth-child(odd) {
+	background-color: yellow;
+}
+
+/* Appliquer un style sur l'input ayant l'attribut type à password */
+input[type="password"] {
+	background-color: blue;
+}
+
+/* Appliquer un style sur tous les éléments enfants */
+.elders li {
+	color: blue;
+}
+
+/* Appliquer un style sur les enfants direct */
+.elders > li {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+/* Appliquer un style sur tous les éléments sauf le premier */
+.siblings li + li + li {
+	color: red;
+}
+
+/* APpliquer un style sur les p adjacents à h1 */
+h1 ~ p {
+	font-family: Montserrat;
+}
+
+
+a {
+	font-size: 2em;
+	color: green;
+}
+
+a:hover {
+	color: yellow;
+	background-color: green;
+}
+
+a:active {
+	background-color: black;
+}
+
+a:visited {
+	color: purple;
+	background-color: grey;
+}
+
+/* Déplace un élément par rapport à sa position naturelle */
+.super-article aside {
+	position: relative;
+	top: -200px;
+	left: -200px;
+}
+
+/* Position absolute : positionne un élément par rapport
+   à l'élément parent ayant une position relative
+*/
+.super-article {
+	position: relative;
+}
+/* Pseudo élément : se comporte comme un élément HTML sans en être */
+.super-article::before {
+	content: '';
+	position: absolute;
+	top: -110px;
+	left: -90px;
+	width: 160px;
+	height: 160px;
+	background-image: url('../img/lion.png');
+	background-size: contain;
+	transform: rotate(-15deg);
+}
+
+.super-article::after {
+	content: '';
+	position: absolute;
+	top: -110px;
+	right: -90px;
+	width: 160px;
+	height: 160px;
+	background-image: url('../img/lion.png');
+	background-size: contain;
+	transform: rotate(15deg);
+}
+
+.histoire::first-letter {
+	font-size: 2em;
+}
+
+.histoire2::first-line {
+	text-decoration: underline;
+}

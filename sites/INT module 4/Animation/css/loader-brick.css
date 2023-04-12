@@ -1,0 +1,57 @@
+
+/* *****************************************************************
+GENERALITIES
+***************************************************************** */
+
+.center {
+	min-height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* *****************************************************************
+ ANIMATION
+***************************************************************** */
+.loader {
+    position: relative;
+    background-color: red;
+    padding: 5rem;
+    width: 50px;
+    display: flex;
+}
+
+.barre1,
+.barre2,
+.barre3 {
+    position: absolute;
+    width: 15px;
+    height: 50px;
+    background: #FFF;
+    top: 25px;
+    animation: loader 1.5s infinite;
+}
+
+.barre1 {
+    left: 17px;
+    animation-delay: -0.4s;
+}
+.barre2 {
+    left: 42px;
+    animation-delay: -0.2s;
+}
+.barre3 {
+    left: 67px;
+    animation-delay: 0s;
+}
+
+@keyframes loader {
+    0% {
+        transform: scaleY(1.5);
+        transform-origin: center center;
+    }
+    100% {
+        transform: scaleY(1);
+        transform-origin: center center;
+    }
+}

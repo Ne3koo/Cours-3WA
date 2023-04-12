@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1190.55px" height="1129.055px" viewBox="0 0 1190.55 1129.055" enable-background="new 0 0 1190.55 1129.055"
+	 xml:space="preserve">
+<rect x="81.643" y="488.321" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="241.892" height="90.541"/>
+<rect x="871.345" y="405.956" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="241.893" height="90.541"/>
+<g>
+	<rect x="81.643" y="50.263" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="241.892" height="90.541"/>
+	<text transform="matrix(1 0 0 1 126.1831 84.2666)" font-family="'ArialMT'" font-size="14.1732">Demander à l’utilisateur :</text>
+	<text transform="matrix(1 0 0 1 105.1484 118.2813)" font-family="'ArialMT'" font-size="14.1732">Quel est le jour de la semaine ?</text>
+</g>
+<g>
+	<rect x="81.643" y="188.32" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="241.892" height="90.541"/>
+	<text transform="matrix(1 0 0 1 126.1831 223.4541)" font-family="'ArialMT'" font-size="14.1732">Demander à l’utilisateur :</text>
+	<text transform="matrix(1 0 0 1 116.979 257.4697)" font-family="'ArialMT'" font-size="14.1732">Y a-t-il une astreinte ? O / N</text>
+</g>
+<g>
+	<polygon fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" points="202.587,452.108 80.834,385.104 202.587,318.094 
+		324.342,385.098 	"/>
+	<text transform="matrix(1 0 0 1 126.958 373.5869)" font-family="'ArialMT'" font-size="14.1732">Si le jour de la semaine</text>
+	<text transform="matrix(1 0 0 1 137.4355 390.5947)" font-family="'ArialMT'" font-size="14.1732">est jeudi ou vendredi</text>
+	<text transform="matrix(1 0 0 1 151.7715 407.6025)" font-family="'ArialMT'" font-size="14.1732">et qu’il n’y a pas</text>
+	<text transform="matrix(1 0 0 1 164.2285 424.6104)" font-family="'ArialMT'" font-size="14.1732">d’astreinte ?</text>
+</g>
+<text transform="matrix(1 0 0 1 144.998 516.584)" font-family="'ArialMT'" font-size="14.1732">Afficher le message</text>
+<text transform="matrix(1 0 0 1 106.6099 550.5996)" font-family="'ArialMT'" font-size="14.1732">&quot;Pas de MEP en fin de semaine&quot;</text>
+<g>
+	<path fill="#FFFFFF" stroke="#000000" stroke-width="0.763" stroke-miterlimit="10" d="M323.534,677.034
+		c0,3.855-5.373,6.982-12,6.982H93.642c-6.627,0-12-3.127-12-6.982v-38.732c0-3.855,5.373-6.982,12-6.982h217.892
+		c6.627,0,12,3.127,12,6.982V677.034z"/>
+	<text transform="matrix(1 0 0 1 181.645 664.1748)" font-family="'ArialMT'" font-size="22.6772">FIN</text>
+</g>
+<text transform="matrix(1 0 0 1 930.2358 439.7119)" font-family="'ArialMT'" font-size="14.1732">Afficher le message</text>
+<text transform="matrix(1 0 0 1 941.0952 473.7275)" font-family="'ArialMT'" font-size="14.1732">&quot;MEP autorisée&quot;</text>
+<g>
+	<path stroke="#000000" stroke-width="1.0254" stroke-miterlimit="10" d="M204.565,140.986v47.334V140.986z"/>
+	<polygon stroke="#000000" stroke-width="0.0767" stroke-miterlimit="10" points="209.03,180.586 204.565,188.32 200.1,180.586 	"/>
+</g>
+<g>
+	<path stroke="#000000" stroke-width="0.9336" stroke-miterlimit="10" d="M202.588,278.861v39.233V278.861z"/>
+	<polygon stroke="#000000" stroke-width="0.0698" stroke-miterlimit="10" points="207.054,311.683 202.588,318.094 198.123,311.683 
+			"/>
+</g>
+<g>
+	<path stroke="#000000" stroke-width="0.9078" stroke-miterlimit="10" d="M202.588,451.227v37.097V451.227z"/>
+	<polygon stroke="#000000" stroke-width="0.0679" stroke-miterlimit="10" points="207.053,482.26 202.588,488.321 198.123,482.26 	
+		"/>
+</g>
+<g>
+	<path stroke="#000000" stroke-width="1.0795" stroke-miterlimit="10" d="M204.399,578.862v52.453V578.862z"/>
+	<polygon stroke="#000000" stroke-width="0.0808" stroke-miterlimit="10" points="208.865,622.745 204.399,631.315 199.934,622.745 
+			"/>
+</g>
+<path fill="none" stroke="#000000" stroke-width="0.0767" stroke-miterlimit="10" d="M204.565,605.088"/>
+<g>
+	
+		<rect x="465.775" y="118.282" fill="#FFFFFF" stroke="#000000" stroke-width="1.1043" stroke-miterlimit="10" width="295" height="90.541"/>
+	<text transform="matrix(1 0 0 1 530.8501 151.0088)" font-family="'ArialMT'" font-size="14.1732">Demander à l’utilisateur :</text>
+	<text transform="matrix(1 0 0 1 470.8389 185.0244)" font-family="'ArialMT'" font-size="14.1732">Les tests sont-ils passés avec succès ? O/N</text>
+</g>
+<g>
+	
+		<rect x="465.775" y="253.207" fill="#FFFFFF" stroke="#000000" stroke-width="1.1043" stroke-miterlimit="10" width="295" height="90.541"/>
+	<text transform="matrix(1 0 0 1 531.9224 287.21)" font-family="'ArialMT'" font-size="14.1732">Demander à l’utilisateur :</text>
+	<text transform="matrix(1 0 0 1 467.9595 321.2256)" font-family="'ArialMT'" font-size="14.1732">La recette est-elle passée avec succès ? O/N</text>
+</g>
+<g>
+	<polygon fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" points="605.791,518.234 484.036,451.229 605.791,384.219 
+		727.542,451.224 	"/>
+	<text transform="matrix(1 0 0 1 518.3574 443.1924)" font-family="'ArialMT'" font-size="14.1732">Si les tests sont passés avec</text>
+	<text transform="matrix(1 0 0 1 565.3716 460.2012)" font-family="'ArialMT'" font-size="14.1732">succès et que</text>
+	<text transform="matrix(1 0 0 1 527.0146 477.209)" font-family="'ArialMT'" font-size="14.1732">la recette est passée avec</text>
+	<text transform="matrix(1 0 0 1 581.1333 494.2158)" font-family="'ArialMT'" font-size="14.1732">succès ?</text>
+</g>
+<rect x="449.444" y="559.817" fill="#FFFFFF" stroke="#000000" stroke-width="1.1448" stroke-miterlimit="10" width="317" height="90.541"/>
+<text transform="matrix(1 0 0 1 546.7471 593.5732)" font-family="'ArialMT'" font-size="14.1732">Afficher le message</text>
+<text transform="matrix(1 0 0 1 456.9121 627.5889)" font-family="'ArialMT'" font-size="14.1732">&quot;Veuillez effectuer les corrections et rééssayez&quot;</text>
+<g>
+	<path fill="#FFFFFF" stroke="#000000" stroke-width="0.763" stroke-miterlimit="10" d="M726.736,748.53
+		c0,3.855-5.373,6.982-12,6.982H496.843c-6.627,0-12-3.127-12-6.982v-38.732c0-3.855,5.373-6.982,12-6.982h217.893
+		c6.627,0,12,3.127,12,6.982V748.53L726.736,748.53z"/>
+	<text transform="matrix(1 0 0 1 584.8462 735.6709)" font-family="'ArialMT'" font-size="22.6772">FIN</text>
+</g>
+<g>
+	<path stroke="#000000" stroke-width="1.0795" stroke-miterlimit="10" d="M607.599,650.358v52.451V650.358z"/>
+	<polygon stroke="#000000" stroke-width="0.0808" stroke-miterlimit="10" points="612.066,694.241 607.599,702.811 603.134,694.241 
+			"/>
+</g>
+<g>
+	<path fill="none" stroke="#000000" stroke-width="1.0254" stroke-miterlimit="10" d="M324.342,385.098l87.27,0.003V163.552h53.581
+		h-23.166"/>
+	<polygon stroke="#000000" stroke-width="0.0767" stroke-miterlimit="10" points="457.457,159.087 465.191,163.552 457.457,168.017 
+			"/>
+</g>
+<g>
+	<path stroke="#000000" stroke-width="1.0254" stroke-miterlimit="10" d="M612.066,208.823v42.766V208.823z"/>
+	<polygon stroke="#000000" stroke-width="0.0767" stroke-miterlimit="10" points="616.531,243.854 612.066,251.588 607.601,243.854 
+			"/>
+</g>
+<g>
+	<path stroke="#000000" stroke-width="0.9482" stroke-miterlimit="10" d="M604.634,343.748v40.472V343.748z"/>
+	<polygon stroke="#000000" stroke-width="0.0767" stroke-miterlimit="10" points="609.099,376.485 604.634,384.219 600.169,376.485 
+			"/>
+</g>
+<g>
+	<path stroke="#000000" stroke-width="0.9643" stroke-miterlimit="10" d="M604.765,518.234v41.857V518.234z"/>
+	<polygon stroke="#000000" stroke-width="0.0767" stroke-miterlimit="10" points="609.232,552.359 604.765,560.093 600.3,552.359 	
+		"/>
+</g>
+<g>
+	<path stroke="#000000" stroke-width="0.8504" stroke-miterlimit="10" d="M726.736,452.108h144.609H726.736z"/>
+	<polygon stroke="#000000" stroke-width="0.0767" stroke-miterlimit="10" points="863.613,447.644 871.345,452.108 863.613,456.573 
+			"/>
+</g>
+<polyline fill="none" stroke="#000000" stroke-width="0.8504" stroke-miterlimit="10" points="607.599,676.584 992.292,678.698 
+	992.292,496.497 "/>
+<path fill="none" stroke="#000000" stroke-width="0.8504" stroke-miterlimit="10" d="M607.599,676.584"/>
+<text transform="matrix(1 0 0 1 347.7749 373.5869)" font-family="'MyriadPro-Regular'" font-size="12">NON</text>
+<text transform="matrix(1 0 0 1 214.7749 473.7275)" font-family="'MyriadPro-Regular'" font-size="12">OUI</text>
+<text transform="matrix(1 0 0 1 784.7749 434.0273)" font-family="'MyriadPro-Regular'" font-size="12">OUI</text>
+<text transform="matrix(1 0 0 1 625.7749 539.1631)" font-family="'MyriadPro-Regular'" font-size="12">NON</text>
+</svg>

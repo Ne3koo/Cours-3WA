@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Caroussel d'images avec le plugin jQuery Owl Carousel">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Décoration</title>
+    	<link rel="stylesheet" href="css/common-v3.css">
+    	<link rel="stylesheet" href="css/theme.css">
+    	<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" />
+	</head>
+	<body>
+    	<header class="header">
+			<h1>Plugin jQuery Fancy Box</h1>
+			<p>Galerie d'images avec le plugin jQuery Fancy Box</p>
+    	</header>
+    	<main class="container">
+    		<article>
+    			<h2>Fancy box</h2>
+    			<div class="gallery">
+    				<a href="img/abstract1-grand.jpg" data-fancybox="gallery" data-caption="Abstract #1">
+    					<img src="img/abstract1-vignette.jpg" />
+    				</a>
+					<a href="img/abstract2-grand.jpg" data-fancybox="gallery" data-caption="Abstract #2">
+						<img src="img/abstract2-vignette.jpg" alt="" />
+					</a>
+					<a href="img/nature1-grand.jpg" data-fancybox="gallery" data-caption="Nature #1">
+						<img src="img/nature1-vignette.jpg" alt="" />
+					</a>
+					<a href="img/nature2-grand.jpg" data-fancybox="gallery" data-caption="Nature #2">
+						<img src="img/nature2-vignette.jpg" alt="" />
+					</a>
+					<a href="img/nature3-grand.jpg" data-fancybox="gallery" data-caption="Nature #3">
+						<img src="img/nature3-vignette.jpg" alt="" />
+					</a>
+					<a href="img/tech1-grand.jpg" data-fancybox="gallery" data-caption="Tech #1">
+						<img src="img/tech1-vignette.jpg" alt="" />
+					</a>
+					<a href="img/tech2-grand.jpg" data-fancybox="gallery" data-caption="Tech #2">
+						<img src="img/tech2-vignette.jpg" alt="" />
+					</a>
+					<a href="img/tech3-grand.jpg" data-fancybox="gallery" data-caption="Tech #3">
+						<img src="img/tech3-vignette.jpg" alt="" />
+					</a>
+    			</div>
+    		</article>
+    	</main>
+    	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    	<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+    	<script type="text/javascript">
+    		Fancybox.bind('[data-fancybox="gallery"]', {
+			  // Your custom options
+			});
+    	</script>
+	</body>
+</html>

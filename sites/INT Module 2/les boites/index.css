@@ -1,0 +1,69 @@
+/*********************** Généralités **************************/
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: #555;
+}
+
+header {
+    background-color: #DDD;
+    text-align: center;
+    border: 1px solid #DD5735;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #DD5735;
+}
+
+a {
+    text-decoration: none;
+    color: #DD5735;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #DDD;
+    text-align: center;
+    border: 1px solid #555;
+}
+
+/************************* Contenu ******************************/
+
+.box {
+    background-color: #DDD;
+}
+
+.box2 {
+    margin: 1.25em;
+}
+
+.box3 {
+    padding: 1.25em;
+}
+
+.box4 {
+    padding: 1.25em;
+    border: 2px solid #DD5735;
+}
+
+.box5 {
+    margin: 1.25em;
+    padding: 1.25em;
+    border: 2px solid #DD5735;
+    width: 500px;
+    box-sizing: content-box;/* Valeur par défaut */
+}
+
+.box6 {
+    margin: 1.25em;
+    padding: 1.25em;
+    border: 2px solid #DD5735;
+    width: 500px;
+    box-sizing: border-box;/* Valeur par défaut */
+}
+

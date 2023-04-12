@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Mon premier formulaire</title>
+    </head>
+    <body>
+        
+        <!--
+            URL de la page : www.nevezide.com/home
+        -->
+        <!--
+            action="" -> envoie les données à www.nevezide.com/home
+            action="/contact" -> envoie les données à www.nevezide.com/contact
+        -->
+        <!--
+            method="get" ou non spécifié -> envoie les données en GET, cad dans l'URL
+            method="post" -> envoie les données en POST, cad dans le body (ou payload)
+        -->
+        <form action="/contact" method="post">
+            <label>
+                Prénom
+                <input type="text" name="prenom" placeholder="Veuillez taper votre prénom" required />
+                <!--input type="text" name="prenom" value="Fabrice" required /-->
+            </label>
+            <br />
+            <label>
+                Mot de passe
+                <input type="password" name="mot de passe" required />
+            </label>
+            <br />
+            <label>
+                Email
+                <input type="email" name="email" required />
+            </label>
+            <br />
+            <label>
+                Age
+                <input type="number" name="age" required />
+            </label>
+            <br />
+            <label>
+                Couleur préférée
+                <input type="color" name="couleur" />
+            </label>
+            <br />
+            <label>
+                Message
+                <textarea name="message"></textarea>
+            </label>
+            <br />
+            <label>
+                Choisissez votre personnage
+                <select name="personnage">
+                    <option value="">Aucun</option>
+                    <option value="tintin">Tintin</option>
+                    <option value="dark-vador">Dark vador</option>
+                    <option value="sangoku">Sangoku</option>
+                </select>
+            </label>
+            <fieldset>
+                <legend>Choisir une couleur</legend>
+                <label>
+                    Rouge
+                    <input type="radio" name="color" value="rouge">
+                </label>
+                <label>
+                    Vert
+                    <input type="radio" name="color" value="vert">
+                </label>
+                <label>
+                    Bleu
+                    <input type="radio" name="color" value="bleu">
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Choisir une ou plusieurs questions</legend>
+                <label>
+                    Qu'aimes-tu manger?
+                    <input type="checkbox" name="q_manger" value="true">
+                </label>
+                <label>
+                    Qu'aimes-tu boire?
+                    <input type="checkbox" name="q_boire" value="true">
+                </label>
+                <label>
+                    Aimes-tu jouer?
+                    <input type="checkbox" name="q_jouer" value="true">
+                </label>
+            </fieldset>
+            <br />
+            <button type="submit">Enregistrer</button>
+        </form>
+    </body>
+</html>
