@@ -1,12 +1,5 @@
-import { createApp } from 'vue/dist/vue.esm-bundler';
+import { createApp } from 'vue';
+import App from './src/App.vue';
 
-let app = createApp({
-  data() {
-    return {
-      message: 'Hello Vue!',
-    }
-  },
-  template: `<div>{{ message }}</div>`,
-});
-
+let app = createApp(App);
 app.mount('#app');
